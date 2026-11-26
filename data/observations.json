@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Hospital Provincial Nuestra Señora de La Altagracia",
+    "city": "Higüey",
+    "province": "La Altagracia",
+    "source": "https://sns.gob.do/general/director-del-sns-realiza-cambios-estrategicos-en-hospitales-de-la-region-este/"
+  },
+  {
+    "name": "Hospital General y de Especialidades Nuestra Señora de La Altagracia",
+    "city": "Higüey",
+    "province": "La Altagracia",
+    "source": "https://sns.gob.do/general/director-del-sns-realiza-cambios-estrategicos-en-hospitales-de-la-region-este/"
+  },
+  {
+    "name": "Hospital Traumatológico Nuestra Señora de la Altagracia",
+    "city": "Higüey",
+    "province": "La Altagracia",
+    "source": "https://sns.gob.do/publicaciones/hospital-traumatologico-de-higuey-reduce-a-cero-los-referimientos-de-pacientes-con-trauma-y-fortalece-la-atencion-en-la-region-este/"
+  },
+  {
+    "name": "Hospital Regional Dr. Luis Morillo King",
+    "city": "La Vega",
+    "province": "La Vega",
+    "source": "https://sns.gob.do/publicaciones/sns-deja-en-funcionamiento-primera-unidad-de-cuidados-intensivos-pediatricos-en-hospital-morillo-king/"
+  },
+  {
+    "name": "Hospital Regional Antonio Musa",
+    "city": "San Pedro de Macorís",
+    "province": "San Pedro de Macorís",
+    "source": "https://sns.gob.do/publicaciones/entrega-de-equipos-a-hospitales-ha-incrementado-hasta-30-veces-su-produccion-de-servicios-2/"
+  },
+  {
+    "name": "Hospital Regional Juan Pablo Pina",
+    "city": "San Cristóbal",
+    "province": "San Cristóbal",
+    "source": "https://sns.gob.do/publicaciones/entrega-de-equipos-a-hospitales-ha-incrementado-hasta-30-veces-su-produccion-de-servicios-2/"
+  },
+  {
+    "name": "Hospital José María Cabral y Báez",
+    "city": "Santiago",
+    "province": "Santiago",
+    "source": "https://sns.gob.do/publicaciones/entrega-de-equipos-a-hospitales-ha-incrementado-hasta-30-veces-su-produccion-de-servicios-2/"
+  }
+]
