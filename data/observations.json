@@ -40,5 +40,41 @@
     "city": "Santiago",
     "province": "Santiago",
     "source": "https://sns.gob.do/publicaciones/entrega-de-equipos-a-hospitales-ha-incrementado-hasta-30-veces-su-produccion-de-servicios-2/"
+  },
+  {
+    "name": "Hospital Regional Taiwán 19 de Marzo",
+    "city": "Azua",
+    "province": "Azua",
+    "source": "https://sns.gob.do/inauguracion/actual-gestion-sns-ha-inaugurado-30-emergencias-para-fortalecer-asistencia-sanitaria/"
+  },
+  {
+    "name": "Hospital Municipal Peralta",
+    "city": "Peralta",
+    "province": "Azua",
+    "source": "https://sns.gob.do/inauguracion/actual-gestion-sns-ha-inaugurado-30-emergencias-para-fortalecer-asistencia-sanitaria/"
+  },
+  {
+    "name": "Hospital Provincial San José de Ocoa",
+    "city": "San José de Ocoa",
+    "province": "San José de Ocoa",
+    "source": "https://sns.gob.do/inauguracion/actual-gestion-sns-ha-inaugurado-30-emergencias-para-fortalecer-asistencia-sanitaria/"
+  },
+  {
+    "name": "Hospital Municipal Arenoso",
+    "city": "Arenoso",
+    "province": "Duarte",
+    "source": "https://sns.gob.do/inauguracion/actual-gestion-sns-ha-inaugurado-30-emergencias-para-fortalecer-asistencia-sanitaria/"
+  },
+  {
+    "name": "Hospital Municipal Imbert",
+    "city": "Imbert",
+    "province": "Puerto Plata",
+    "source": "https://sns.gob.do/inauguracion/actual-gestion-sns-ha-inaugurado-30-emergencias-para-fortalecer-asistencia-sanitaria/"
+  },
+  {
+    "name": "Hospital Municipal Jima Abajo",
+    "city": "Jima Abajo",
+    "province": "La Vega",
+    "source": "https://sns.gob.do/inauguracion/actual-gestion-sns-ha-inaugurado-30-emergencias-para-fortalecer-asistencia-sanitaria/"
   }
 ]
