@@ -1,0 +1,12 @@
+name: Official direct source inspection
+on: [pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install openpyxl==3.1.5
+      - run: python3 inspect_source.py
