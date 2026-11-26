@@ -1,0 +1,28 @@
+name: Build and browser test
+on: [pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: SITE_URL=https://example.com node build.mjs
+      - run: npm install --no-save playwright
+      - run: npx playwright install chromium
+      - run: |
+          node --input-type=module <<'JS'
+          import { chromium } from 'playwright';
+          import assert from 'node:assert/strict';
+          import {resolve} from 'node:path';
+          const browser=await chromium.launch();
+          try{for(const width of [375,1440]) for(const lang of ['es','en','de','fr','it']){const p=await browser.newPage({viewport:{width,height:900}});await p.goto('file://'+resolve('public/'+lang+'/index.html'));assert.equal(await p.locator('html').getAttribute('lang'),lang);assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));assert.ok(await p.locator('article a').count()>0);await p.close();}}finally{await browser.close()}
+          JS
+  source-probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 probe.py
